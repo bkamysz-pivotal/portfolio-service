@@ -17,4 +17,4 @@ params:
   TERM: dumb
 
 run:
-  path: portfolio-service/ci/tasks/build-portfolio-service/task.sh
+  path: portfolio-service/ci/tasks/build-portfolio-service/task.sh1
