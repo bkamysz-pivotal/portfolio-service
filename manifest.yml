@@ -9,5 +9,5 @@ env:
 applications:
 - name: portfolio
   random-route: true
-  path: libs/portfolio-${version}.jar
+  path: ../build-output/portfolio.jar
   services: [ traderdb, discovery-service, circuit-breaker-dashboard, config-server ]
