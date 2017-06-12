@@ -56,7 +56,7 @@ jobs:
     passed: [ prepare-cf-env ]
     trigger: true
   - task: build
-    file: portfolio-service/ci/tasks/build-account-service/task.yml
+    file: portfolio-service/ci/tasks/build-portfolio-service/task.yml
     params:
       ARTIFACT_ID: portfolio
   - put: cf-zero-downtime-push
